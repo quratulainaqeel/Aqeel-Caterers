@@ -8,7 +8,7 @@ export const siteConfig = {
     businessHours: "Mon - Sun: 9:00 AM - 12:00 AM"
   },
   socials: {
-    instagram: "https://instagram.com/aqeelcaterers",
+    instagram: "instagram.com/aqeelcaterers?stkn=MXM4OTFkZWNsb3cyeg==",
     facebook: "https://www.facebook.com/profile.php?id=61567163693041",
     whatsapp: "https://wa.me/923155941307"
   },

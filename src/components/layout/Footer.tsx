@@ -51,7 +51,7 @@ export default function Footer() {
               <FaFacebookF />
             </a>
 
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/aqeelcaterers?stkn=MXM4OTFkZWNsb3cyeg%3D%3D" aria-label="Instagram">
               <FaInstagram />
             </a>
 
