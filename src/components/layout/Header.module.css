@@ -43,7 +43,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  padding: 0px;
 }
 
 .hamburger {
@@ -73,6 +73,30 @@
 .mobileNav {
   display: none;
 }
+/* Desktop CTA - Only show on desktop */
+.desktopCta {
+  display: flex;  /* Shows only on desktop */
+}
+
+/* Mobile CTA - Only show in mobile menu */
+.mobileCta {
+  display: none;  /* Hidden by default */
+}
+
+/* At breakpoint 1023px (tablet/mobile) */
+@media (max-width: 1023px) {
+  .desktopCta {
+    display: none !important;  /* Hide desktop button */
+  }
+  
+  .mobileCta {
+    display: flex !important;  /* Show mobile button */
+  }
+
+  /* .mobilelogo{
+    width: 100px ;
+  } */
+}
 
 @media (max-width: 992px) {
   .desktopNav { display: none; }
@@ -96,3 +120,4 @@
     border-bottom: 1px solid rgba(255,255,255,0.05);
   }
 }
+

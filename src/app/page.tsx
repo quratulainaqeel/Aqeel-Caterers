@@ -56,75 +56,57 @@ export default function Home() {
         />
 
         {/* Content */}
-        <div
-          style={{
-            position: "relative",
-            zIndex: 3,
-            maxWidth: "1200px",
-            // padding: "0 20px",
-            top: "40px",
-            
-          }}
-          className="animate-fade-up"
-        >
-          <h1
-            className="page-header-title"
-            style={{marginBottom: "1rem", fontFamily: "sans-serif", fontWeight: 900, fontSize: "4rem", margin: "-20px" }} 
-          >
-            Crafting Experiences For Your
-          </h1>
+       <div
+  style={{
+    position: "relative",
+    zIndex: 3,
+    width: "100%",
+    maxWidth: "1200px",
+    padding: "0 20px",
+    margin: "0 auto",
+  }}
+  className="animate-fade-up"
+>
+  <h1
+    className="page-header-title"
+    style={{
+      marginBottom: "0.5rem",
+      fontFamily: "var(--font-sans)",
+      fontWeight: 900,
+      fontSize: "clamp(2.3rem, 5vw, 4rem)",
+      lineHeight: 1.15,
+    }}
+  >
+    Crafting Experiences For Your
+  </h1>
 
-          <h1
-            className="page-header-title1"
-            style={{ marginBottom: "1rem", fontFamily: "sans-serif", fontWeight: 900, fontSize: "4rem"  }}
-          >
-             Special Moments
-          </h1>
+  <h1
+    className="page-header-title1"
+    style={{
+      marginBottom: "1.5rem",
+      fontFamily: "var(--font-sans)",
+      fontWeight: 900,
+      fontSize: "clamp(2.3rem, 5vw, 4rem)",
+      lineHeight: 1.15,
+    }}
+  >
+    Special Moments
+  </h1>
 
-          <p
-            style={{
-              fontSize: "1.2rem",
-              color: "#f4f4f5",
-              marginBottom: "2rem",
-              padding: "0px 220px",
-              fontWeight: 300,
-            }}
-          >
-            {siteConfig.description}
-          </p>
-
-          <div
-            style={{
-              display: "inline-block",
-              border: "1px solid rgba(212, 175, 55, 0.4)",
-              background: "rgba(212, 175, 55, 0.15)",
-              padding: "12px 24px",
-              borderRadius: "50px",
-              marginBottom: "2.5rem",
-              backdropFilter: "blur(4px)",
-            }}
-          >
-            <p
-              style={{
-                color: "#fff",
-                fontWeight: "bold",
-                fontSize: "1rem",
-                margin: 0,
-              }}
-            >
-              Special Limited Time Offer: Packages starting from Rs. 370 Per Head
-              <span
-                style={{
-                  display: "block",
-                  color: "var(--primary)",
-                  fontSize: "0.9rem",
-                  marginTop: "4px",
-                }}
-              >
-                Advance Booking Rs. 5,000
-              </span>
-            </p>
-          </div>
+  <p
+    style={{
+      fontSize: "clamp(0.95rem, 1.5vw, 1.2rem)",
+      color: "#f4f4f5",
+      margin: "0 auto 2rem",
+      padding: "0",
+      maxWidth: "850px",
+      fontWeight: 300,
+      lineHeight: 1.7,
+    }}
+  >
+    {siteConfig.description}
+  </p>
+          {/* </div> */}
 
           <div
             style={{
